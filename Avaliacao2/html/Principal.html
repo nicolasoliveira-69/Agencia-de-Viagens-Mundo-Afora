@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Agência de Viagens - Mundo Afora</title>
+
+ 
+  <link rel="stylesheet" href="../css/estilo.css">
+
+  
+  <link rel="stylesheet" href="../css/jquery-ui.structure.min.css">
+  <link rel="stylesheet" href="../css/jquery-ui.theme.min.css">
+
+ 
+  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="../js/jquery-ui.min.js"></script>
+
+
+  <script src="../js/script.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Mundo Afora - Agência de Viagens</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Destinos</a></li>
+        <li><a href="#">Promoções</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="descricao">
+      <h2>Sobre nós</h2>
+      <p>Somos uma agência especializada em transformar seus sonhos em viagens inesquecíveis.</p>
+    </section>
+
+    
+    <section class="accordion-container">
+      <div id="accordion">
+        <h3>Quem somos</h3>
+        <div>
+          <p>Equipe apaixonada por viagens.</p>
+        </div>
+        <h3>Nossos serviços</h3>
+        <div>
+          <p>Pacotes completos, personalizados e exclusivos.</p>
+        </div>
+        <h3>Perguntas frequentes</h3>
+        <div>
+          <p>Como remarcar? Que documentos levar? Saiba mais.</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="formulario">
+      <h2>Agende sua próxima viagem</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+
+        <label for="destino">Destino:</label>
+        <input type="text" id="destino" required>
+
+        <label for="data">Data da Viagem:</label>
+        <input type="text" id="data" required>
+
+        <button type="submit">Agendar</button>
+      </form>
+    </section>
+
+   
+    <section class="promocao">
+      <button id="promo">Ver Promoção</button>
+      <div id="mensagemPromo" style="display: none;">
+        <p> Promoção: Rio de Janeiro com 30% OFF!</p>
+        <img src="../img/Christ_the_Redeemer_-_Cristo_Redentor.jpg" alt="Promoção Rio" width="50" height="50">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Nícolas Oliveira</p>
+  </footer>
+
+</body>
+</html>
