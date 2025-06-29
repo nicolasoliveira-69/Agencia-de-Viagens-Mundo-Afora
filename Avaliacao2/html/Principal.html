@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Agência de Viagens</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="jquery-ui-1.14.1.custom/jquery-ui.css">
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery-ui-1.14.1.custom.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Agência de Viagens Mundo Afora</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Pacotes</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="descricao">
+      <p>Explore o mundo com conforto e segurança. Viagens nacionais e internacionais com os melhores preços!</p>
+    </section>
+
+    <section id="accordion">
+      <h3>Quem somos</h3>
+      <div>
+        <p>Uma empresa com 20 anos no mercado, especializada em turismo personalizado.</p>
+      </div>
+
+      <h3>Nossos serviços</h3>
+      <div>
+        <p>Pacotes de viagens, reservas de hotéis, passeios guiados e muito mais.</p>
+      </div>
+
+      <h3>Perguntas frequentes</h3>
+      <div>
+        <p>Quais documentos são necessários? Como funciona o cancelamento? Descubra aqui!</p>
+      </div>
+    </section>
+
+    <section class="formulario">
+      <h2>Agende sua viagem</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required><br>
+
+        <label for="data">Data da viagem:</label>
+        <input type="text" id="data" required><br>
+
+        <button type="submit">Agendar</button>
+      </form>
+    </section>
+
+    <section class="promocao">
+      <button id="botao-promocao">Ver promoção especial</button>
+      <div id="mensagem" style="display: none;">🌞 Promoção: Viagem para o Rio de Janeiro com 30% OFF!</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por:Nícolas Arthur Monteiro Oliveira</p>
+  </footer>
+
+
+</body>
+
+</html>
